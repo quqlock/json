@@ -11,6 +11,18 @@
             "shelter_email": "schronisko@bytom.pl",
             "shelter_is_active": true,
             "shelrer_admin_id": 1
+        },
+        {
+            "shelter_id": 2,
+            "shelter_name": "Schronisko w Rudzie Śląskiej",
+            "shelter_city": 1,
+            "shelter_address": "ul. Jakaś tam 4",
+            "shelter_desc": "Super schronisko w Rudzie Śląskiej dla zwierząt",
+            "shelter_lng": 34.44,
+            "shelter_lat": 32.44,
+            "shelter_email": "schronisko@ruda.pl",
+            "shelter_is_active": true,
+            "shelrer_admin_id": 1
         }
     ],
     "citys": [
@@ -20,7 +32,96 @@
         },
         {
             "city_id": 2,
-            "city_name": "Katowice"
+            "city_name": "Ruda Śląska"
+        }
+    ],
+    "animals": [
+        {
+            "animal_id": 1,
+            "animal_is_active": true,
+            "animal_shelter_id": 1,
+            "animal_contact_id": 1,
+            "aninal_name": "Piesek Burek",
+            "animal_desc": "Fajny piesiek Burek czeka na swój nowy dom",
+            "animal_age": 6,
+            "animal_type": 1,
+            "animal_race": 1,
+            "animal_date_added": "2021-01-01 00:00:00"
+        },
+        {
+            "animal_id": 2,
+            "animal_is_active": true,
+            "animal_shelter_id": 1,
+            "animal_contact_id": 1,
+            "aninal_name": "Papuga Ara",
+            "animal_desc": "Papuga czeka na swój nowy dom",
+            "animal_age": 1,
+            "animal_type": 3,
+            "animal_race": 3,
+            "animal_date_added": "2021-01-01 00:00:00"
+        },
+        {
+            "animal_id": 3,
+            "animal_is_active": true,
+            "animal_shelter_id": 1,
+            "animal_contact_id": 1,
+            "aninal_name": "Kot Filemon",
+            "animal_desc": "Fajny kotek Filemonek czeka na swój nowy dom",
+            "animal_age": 6,
+            "animal_type": 2,
+            "animal_race": 1,
+            "animal_date_added": "2021-01-01 00:00:00"
+        },
+        {
+            "animal_id": 4,
+            "animal_is_active": true,
+            "animal_shelter_id": 1,
+            "animal_contact_id": 1,
+            "aninal_name": "Mały piesek Bureczek",
+            "animal_desc": "Fajny piesiek Burek czeka na swój nowy dom",
+            "animal_age": 6,
+            "animal_type": 1,
+            "animal_race": 1,
+            "animal_date_added": "2021-01-01 00:00:00"
+        }
+    ],
+    "animal_types": [
+        {
+            "type_id": 1,
+            "type_name": "Pies",
+            "type_plural": "Psy"
+        },
+        {
+            "type_id": 2,
+            "type_name": "Kot",
+            "type_plural": "Koty"
+        },
+        {
+            "type_id": 3,
+            "type_name": "Ptak",
+            "type_plural": "Ptaki"
+        },
+        {
+            "type_id": 4,
+            "type_name": "Gryzoń",
+            "type_plural": "Gryzonie"
+        }
+    ],
+    "animal_races": [
+        {
+            "race_id": 1,
+            "race_name": "Mieszaniec",
+            "race_plural": "Mieszańce"
+        },
+        {
+            "race_id": 2,
+            "race_name": "Owczarek niemiecki",
+            "race_plural": "Owczarki niemieckie"
+        },
+        {
+            "race_id": 3,
+            "race_name": "Papuga",
+            "race_plural": "Papugi"
         }
     ]
 }
