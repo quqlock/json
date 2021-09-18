@@ -1,11 +1,26 @@
 {
-    "posts": [
+    "shelters": [
         {
-            "id": 1,
-            "title": "hello"
+            "shelter_id": 1,
+            "shelter_name": "Schronisko w Bytomiu",
+            "shelter_city": 1,
+            "shelter_address": "ul. Jakaś tam 2",
+            "shelter_desc": "Super schronisko w Bytomiu dla zwierząt",
+            "shelter_lng": 34.44,
+            "shelter_lat": 32.44,
+            "shelter_email": "schronisko@bytom.pl",
+            "shelter_is_active": true,
+            "shelrer_admin_id": 1
         }
     ],
-    "profile": {
-        "name": "typicode"
-    }
+    "citys": [
+        {
+            "city_id": 1,
+            "city_name": "Bytom"
+        },
+        {
+            "city_id": 2,
+            "city_name": "Katowice"
+        }
+    ]
 }
